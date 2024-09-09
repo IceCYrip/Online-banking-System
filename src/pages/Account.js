@@ -1,10 +1,10 @@
 import { Button, Paper } from '@mui/material'
 import React, { useEffect, useState } from 'react'
-import '../../styles/Accounts.css'
+import '../styles/Accounts.css'
 import { useNavigate } from 'react-router-dom'
-import Navbar from './Navbar'
-import Profile from './Profile'
-import TransactionHistory from './TransactionHistory'
+import Navbar from './components/Navbar'
+import Profile from './components/Profile'
+import TransactionHistory from './components/TransactionHistory'
 import sweetAlert from 'sweetalert'
 
 const Account = () => {
