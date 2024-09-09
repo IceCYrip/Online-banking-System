@@ -1,0 +1,30 @@
+.navbarWrapper {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  z-index: 2;
+
+  color: white;
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs > label {
+  background-color: rgb(65, 105, 225, 0.75);
+  padding: 15px 30px;
+  width: 50%;
+  text-align: center;
+  transition: 0.2s ease-in;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.tabs > label:hover {
+  background-color: rgb(65, 105, 225, 1);
+  color: white;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px rgba(128, 0, 0, 1);
+}

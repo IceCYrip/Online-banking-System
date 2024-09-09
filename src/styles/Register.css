@@ -1,0 +1,44 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+
+  background-color: whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30vw;
+  min-width: 350px;
+  background-color: white;
+  border-radius: 10px !important;
+}
+
+.registerFormWrapper {
+  padding: 10px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.registerFormWrapper > h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.register-label {
+  text-align: center;
+}
+
+.register-label > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.bttn {
+  min-height: 40px;
+}

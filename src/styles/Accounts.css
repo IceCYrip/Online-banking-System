@@ -1,0 +1,96 @@
+.accountWrapper {
+  min-height: 100vh;
+  width: 100vw;
+
+  background-color: whitesmoke;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accContainer {
+  border-radius: 10px !important;
+  margin-top: 55px;
+
+  width: 60vw;
+  min-width: 350px;
+  max-height: 80vh;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accContainer > h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.register-label {
+  text-align: center;
+}
+
+.register-label > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.bttn {
+  min-height: 40px;
+}
+
+/* Table css */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.details-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1px 0px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Profile css */
+
+.transactionWrapper {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.transactionWrapper > h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.inputFields {
+  display: flex;
+  gap: 20px;
+}
+
+.transactionBttns {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
