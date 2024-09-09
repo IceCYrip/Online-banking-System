@@ -1,21 +1,10 @@
 import React, { useState } from 'react'
 import '../styles/Register.css'
-import {
-  Button,
-  CircularProgress,
-  FormControl,
-  FormHelperText,
-  InputLabel,
-  MenuItem,
-  Paper,
-  Select,
-  TextField,
-} from '@mui/material'
+import { Button, CircularProgress, Paper, TextField } from '@mui/material'
 
 import { Controller, useForm } from 'react-hook-form'
 import { Link, useNavigate } from 'react-router-dom'
 import validator from 'validator'
-import axios from 'axios'
 import sweetAlert from 'sweetalert'
 
 const Register = () => {
